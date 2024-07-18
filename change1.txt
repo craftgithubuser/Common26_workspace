@@ -1,0 +1,30 @@
+Hello Team,
+Kindly follow this steps.
+
+Step 1:
+-------
+
+1. tell who we are to git/ tell which GitHub user is using the git
+
+commands: 
+        git config --global user.email craftknowledge.soresa@gmail.com
+
+        git config --global user.name "craftgithubuser"
+
+git config --list
+
+
+Step 2:
+-------
+1. Creating Remote repository on GITHUB
+
+2. clone or download the remote repository to our local machine
+   --> choose the location -- where - desktop, documents ,...
+   --> we run the git bash from the choosen folder
+   --> we clone
+
+
+
+Step 3:
+------
+Tracking the change using three stage workflow
