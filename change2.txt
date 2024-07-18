@@ -1,0 +1,6 @@
+Tracking the change using three stage workflow
+
+1, modifiy ---> making a change
+2, staging ---> tracking the change/the modification using --> git add .
+3, commit to local repository ---> git commit -m "the message"
+4, pushing to remote repository
