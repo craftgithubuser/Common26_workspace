@@ -1,0 +1,1 @@
+The three git states is:- modified, staged, committed. 
