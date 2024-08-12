@@ -1,0 +1,38 @@
+package Assignment_One;
+
+public class MinElementChallenge {
+
+
+	 public static void reverse(int[] num, int i, int j) {
+
+		        int swap=0;
+		        while (i < j) 
+		        {
+		            swap = num[i];
+		            num[i] = num[j];
+		            num[i] = swap;
+ 
+		            i++;
+		            j--;
+		        }    
+		    }
+
+	public static void printArray(int[] num) {
+		 for (int i=0; i< num.length; i++) {
+		 System.out.print(num[i] + " ");
+		        }
+		    }
+		    
+	 public static void main(String[] args) {
+	     int[] num = {1, 2, 3, 4, 5};
+	    	System.out.print("Original array:");
+         
+	    	printArray( num);
+		       
+	        reverse(num, 0, num.length-1);
+ System.out.print("\nReversed array:");
+	        printArray(num);
+	    }  
+	
+        
+		        }
